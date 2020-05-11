@@ -1,0 +1,14 @@
+from __future__ import print_function
+import argparse
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class Custom_Network(nn.Module):
+	def __init__(self):
+		#super() function makes class inheritance more manageable and extensible
+		super(Custom_Network, self).__init__()
+		pass
+
+	def forward(self, x):
+		pass
